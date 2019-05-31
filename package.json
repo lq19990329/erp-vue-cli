@@ -2,13 +2,9 @@
   "name": "erp-vue-cli",
   "description": "A Vue.js project",
   "version": "1.0.0",
-  "author": "jiaozhiye <jiaozhiye@163.com>",
+  "author": "lq",
   "private": true,
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/jiaozhiye/erp-vue-cli/issues"
-  },
-  "homepage": "https://github.com/jiaozhiye/erp-vue-cli",
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack-dev-server --config ./build/webpack.dev.conf.js --open --hot",
     "build": "cross-env NODE_ENV=production webpack --config ./build/webpack.prod.conf.js --progress"
